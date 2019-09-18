@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <title>my website</title>
+    <link rel="stylesheet" href="style(main).css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/js2.js"></script>
+    <script src="js/vue.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <img id="imgHeader" src="img/SawEuJI.jpg" alt="header">
+        <div id="title">
+            <h1 id="name">Rustem Baltiyev</h1>
+            <h2 id="logo">Educational Practice Portfolio</h2>
+        </div>
+
+        <div id="nav">
+            <a href="task1.html">Task 1</a>
+            <a href="task2.html">Task 2</a>
+            <a href="task3.html">Task 3</a>
+            <a href="task4.html">Task 4</a>
+            <a href="task5.html">Task 5</a>
+            <a href="task6.html">Task 6</a>
+            <a href="#about">About Me</a>
+            <a href="#contact_me">Contact Me</a>
+        </div>
+    </header>
+    <br>
+    <hr width="800px">
+
+    <h2 id="task_name">Task 2 (using JavaScript)</h2>
+    <br>
+
+    <div>
+        <button id="btn2">Pop Up</button>
+    </div>
+    <br>
+    <hr width="500px">
+
+    <h2 id="task_name">Task 2 (using Vue.JS)</h2><br>
+    <div id="vue">
+        <div>
+            <button onclick="showAlert()" id="btn2">Pop Up</button>
+        </div>
+        <br>
+    </div>
+
+    <div id="back">
+        <div id="about">
+            <h2>Overall</h2>
+            <p>My name is Rustem Baltiyev, I am majoring in Computer Science at Suleyman Demirel University.</p>
+            <p>During the end of our last semester of the freshman year, we had a 5 day long class called "Educational
+                Practice". We were given a list of available classes to take for this practice and I chose "Web
+                Development"
+                (hence this website). Being someone who had barely known anything about HTML, CSS, JavaScript and
+                frameworks
+                for web development, I found this course, especially our teacher - Habiburahman Shirzad, to be extremely
+                well-prepared and helpful.</p>
+        </div>
+
+        <br>
+        <div id="contact_me">
+            <h2>Contact Me</h2>
+            <p id="email">Email: r.180200@gmail.com</p>
+            <a target="_blank" href="https://www.instagram.com/b_roamer/">Instagram</a>
+        </div>
+
+
+        <br>
+        <br>
+        <hr width="1000px;">
+        <footer id="footer">
+            <p>All the tasks presented on this website are made by Rustem Baltiyev.</p>
+        </footer>
+    </div>
+
+    <script>
+        var obj = new Vue({
+            el: "#vue",
+            data: { date: "", changed: "", hidden: "", sign: "+", result: 0, val1: 0, val2: 0 },
+            methods: {
+                showResult: function () {
+                    var n1 = this.val1;
+                    var n2 = this.val2;
+
+                    if (obj.sign === "+") obj.result = n1 + n2;
+
+                    else if (obj.sign === "-") obj.result = n1 - n2;
+
+                    else if (obj.sign === "*") obj.result = n1 * n2;
+
+                    else if (obj.sign === "/") obj.result = n1 / n2;
+
+                    else if (obj.sign === "%") obj.result = n1 % n2;
+                }
+            }
+        })
+
+        function showCurrentDate() {
+            obj.date = Date();
+        }
+
+        function showAlert() {
+            alert("Popped up");
+        }
+
+        function showVariable() {
+            var a = 1;
+            alert(a);
+        }
+
+        function showNode() {
+            obj.changed = "Node";
+        }
+
+        function showChanged() {
+            obj.changed = "Changed";
+        }
+
+        function hideHidden() {
+            obj.hidden = "";
+        }
+
+        function showHidden() {
+            obj.hidden = "Pikaboo";
+        }
+
+        function add() {
+            obj.sign = "+";
+        }
+
+        function diff() {
+            obj.sign = "-";
+        }
+
+        function multiply() {
+            obj.sign = "*";
+        }
+
+        function divide() {
+            obj.sign = "/";
+        }
+
+        function mod() {
+            obj.sign = "%";
+        }
+
+        function showResult() {
+            var n1 = this.val1;
+            var n2 = this.val2;
+            console.log(n1 + " " + n2);
+
+            if (obj.sign === "+") obj.result = n1 + n2;
+
+            else if (obj.sign === "-") obj.result = n1 - n2;
+
+            else if (obj.sign === "*") obj.result = n1 * n2;
+
+            else if (obj.sign === "/") obj.result = n1 / n2;
+
+            else if (obj.sign === "%") obj.result = n1 % n2;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+body {
+    background-color: #222222;
+    font-family: Roboto;
+}
+
+#imgHeader {
+    width: 100%;
+}
+
+#title {
+    color: #D5D5D4;
+    font-family: Roboto;
+    font-size: 20px;
+    position: absolute;
+    font-style: normal;
+    top: 10px;
+    left: 50px;
+}
+
+#name {
+    padding: 10px 25px;
+}
+
+#logo {
+    color: #222222;
+    background-color: #D5D5D4;
+    border-radius: 100px;
+    padding: 10px 25px;
+}
+
+a:link {
+    color: #D5D5D4;
+    text-decoration: none;
+    background-color: #696969;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+a:visited {
+    color: #D5D5D4;
+    background-color: #696969;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #696969;
+    background-color: #D5D5D4;
+    padding: 15px 30px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+a:active {
+    color: grey;
+    padding: 25px 40px;
+    display: inline-block;
+}
+
+#nav {
+    text-align: center;
+}
+
+#task_name {
+    text-align: center;
+    color: #D5D5D4;
+}   
+
+#footer {
+    color: #D5D5D4;
+    text-align: center;
+}
+
+#curDate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#curDate:hover {
+    background-color: #696969;
+}
+
+#date {
+    text-align: center;
+    color: #D5D5D4;
+}
+
+#btn2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btn2:hover {
+    background-color: #696969;
+}
+
+#btn3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btn3:hover {
+    background-color: #696969;
+}
+
+#node {
+    color: #D5D5D4;
+    text-align: center;
+}
+
+#btnNode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btnNode:hover {
+    background-color: #696969;
+}
+
+#btnChanged {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btnChanged:hover {
+    background-color: #696969;
+}
+
+#hide {
+    color: #D5D5D4;
+    text-align: center;
+}
+
+#btnHide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D5D5D4;
+    padding: 10px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btnHide:hover {
+    background-color: #696969;
+}
+
+#calc {
+    text-align: center;
+    color: #D5D5D4; 
+}
+
+#result {
+    padding: 10px;
+}
+
+.btnOpr {
+    color: #D5D5D4;
+    padding: 10px 20px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+.btnOpr:hover {
+    background-color: #696969;
+}
+
+#btnResult {
+    color: #D5D5D4;
+    padding: 10px 20px;
+    background-color: #222222;
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #D5D5D4;
+    border-radius: 100px;
+    transition: 300ms;
+}
+
+#btnResult:hover {
+    background-color: #696969;
+}
+
+#equal {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+#about {
+    color: #D5D5D4;
+    position: relative;
+    left: 50px;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+#contact_me {
+    color: #D5D5D4;
+    position: relative;
+    left: 50px;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+#email {
+    word-spacing: 20px;
+}
+
+#back {
+    background-image: linear-gradient(#222222, black);
+    position: absolute;
+    display: block;
+    margin-right: auto;
+}
