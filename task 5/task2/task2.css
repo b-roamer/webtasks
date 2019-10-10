@@ -1,0 +1,153 @@
+		.cont{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-top: 50px;
+			font-family: Arial;
+			font-weight:lighter;
+		}
+		.page1{
+
+			width: 700px;
+			height: 550px;
+			padding-right: 250px;
+			-webkit-box-shadow: 0px 10px 16px 0px #0B325E;
+
+
+		}
+		.page2{
+			border: 1px solid rgb(31, 45, 37);
+			background-color:rgb(20, 23, 32);
+			width: 350px;
+			height: 600px;
+			position: absolute;
+			z-index: 2;
+			left: 950px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+
+
+
+
+
+		.page3{
+
+			position: absolute;
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+		 	bottom: 80px;
+		 	width: 650px;
+		 	height: 100px;
+		 	left: 50px;
+		 	border-left-color: red;
+		 	border-left-width: 5px;
+		 	margin-left: 90px;
+		 	z-index: 2;
+		 	display: flex;
+		 	flex-direction: row;
+		 	justify-content: space-between;
+		 	align-items: center;
+		 	background-color: white;
+
+		}
+		.art{
+			width: 25px;
+			height: 25px;
+			border-radius: 100px;
+			margin-left: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+			border: 1px solid white;
+			-webkit-box-shadow: 0px 10px 16px 0px #0B325E;
+		}
+		.alg{
+			width: 25px;
+			height: 25px;
+			border-radius: 100px;
+			margin-right: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+			-webkit-box-shadow: 0px 10px 16px 0px #0B325E;
+			border: 1px solid white;
+
+		}
+
+		::placeholder{
+			font-size:100%;
+			color: white;
+			text-indent: 10px;
+
+
+
+		}
+		.search{
+			display: flex;
+			flex-direction: row;
+			margin-top: 30px;
+			margin-left: -70px;
+			font-color: white;
+		}
+		.but{
+			width:40px;
+			height: 40px;
+			border: 3px solid white;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+		}
+
+
+		.sur{
+			display: flex;
+			flex-direction: row;
+			justify-content:space-between;
+			align-items: center;
+			margin-top: 30px;
+
+
+		}
+		#first:hover{
+
+ 		-webkit-transform: scale(100);
+  		transform: scale(1.05);
+  		cursor: pointer;
+
+		}
+		#second:hover{
+ 		-webkit-transform: scale(100);
+  		transform: scale(1.05);
+		  	cursor: pointer;
+		}
+		#three:hover{
+
+ 		-webkit-transform: scale(100);
+  		transform: scale(1.05);
+		  	cursor: pointer;
+		}
+		#four:hover{
+ 		-webkit-transform: scale(100);
+  		transform: scale(1.05);
+		  	cursor: pointer;
+		}
+		#lorem{
+			font-family: Arial;color: white;
+			font-weight:lighter;
+			;font-size: 80%;
+			width:300px;
+			margin-top: -10px;
+		}
+		#sear a{
+			text-decoration: none;
+			color:white;
+		}

@@ -1,0 +1,109 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+#name
+{
+    font-size: 250%;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main
+{
+    display: inline-block;
+}
+
+#field 
+{
+    margin-left: 50px;  
+    display: inline-block;
+    padding: 30px; 
+    box-shadow: 0px 50px 90px 5px rgba(0,0,0,0.3);
+}
+
+#field input
+{
+    margin: -1px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#find_button 
+{
+    width: 370px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#find_button a:link
+{
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 39%;
+    color: black;
+    border-left: 3px solid rgb(255, 45, 45);
+    transition: 300ms;
+    box-shadow: 0px 40px 93px -20px rgba(255, 0, 0, 0.8);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#find_button a:visited
+{
+    background-color: white;
+    padding: 10px;
+    padding-right: 146px;
+    color: black;
+    border-left: 3px solid rgb(255, 45, 45);
+    transition: 300ms;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#find_button a:hover 
+{
+    background-color: rgb(255, 45, 45);
+    color: white;
+    transition: 300ms;
+    font-weight: bold;
+}
+
+#result_block
+{
+    display: inline-block;
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    margin-left: 5px;
+
+}
+
+#result
+{
+    color: rgb(255, 45, 45);
+    margin: 10px;
+    font-size: 40px;
+}
+
+#formula
+{
+    margin: 10px;
+    color: gray;
+}
+
+#def
+{
+    margin: 10px;
+    padding-bottom: 41px;
+    margin-top: 40px;
+}

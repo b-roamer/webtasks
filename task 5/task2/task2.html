@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="task2.css">
+	<script src="task2.js">
+	</script>
+</head>
+<body>
+	<div class="cont">
+		<div class="page1">
+			<img id="resim" style="width: 750px;height: 550px;">
+			<p id="resim2"></p>
+		</div>
+
+
+
+
+		<div class="page2">
+			<div  style="font-size: 350%;position: relative;right: 100px;width: 500px;color:white;">
+				<p style="text-indent: 10px;">Here is the coolest <p id="PA" style="text-indent: 140px;margin-top: -40px;">new car - Tayota</p></p>
+			</div>
+
+			<div id="lorem"><span style="font-weight: bold;"> Lorem Ipsum </span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+
+
+			<div class="search">
+				<input id="in" value="" type="text" placeholder="Show more" style="height:40px;width:180px;background-color: rgb(20, 23, 32);border:0,5px solid white;color:white;font-size: 100%;">
+				<div class="but"><img src="next.png" style="width: 40px;" onclick="go()"></div>
+			</div>
+				<div id="sear" style="margin-top:10px;color: white;font-size:20px;"></div>
+
+
+		</div>
+
+		<div class="page3">
+			<div  style="border: 2px solid red;height: 100px;"></div>
+			<div class="art" onclick="back(),back2(),back3(),back4(),apa()"><img src="p.png" style="width: 60%;height: 60%;"></div>
+		<div class="sur">
+			<div onclick="f()" style="-webkit-box-shadow: 0px 10px 50px 0px #0B325E;width:120px;height:80px;margin-right: 10px;margin-top: -30px;"><img id="first" style="width: 100%;height: 100%"></div>
+			<div onclick="s()" style="-webkit-box-shadow: 0px 10px 50px 0px #0B325E;width:120px;height:80px;margin-right: 10px;margin-top: -30px;"><img  id="second" style="width: 100%;height: 100%"></div>
+			<div onclick="t()" style="-webkit-box-shadow: 0px 10px 50px 0px #0B325E;width:120px;height:80px;margin-right: 10px;margin-top: -30px;"><img id="three" style="width: 100%;height: 100%"></div>
+			<div onclick="x()" style="-webkit-box-shadow: 0px 10px 50px 0px #0B325E;width:120px;height:80px;margin-top: -30px;"><img id="four" style="width: 100%;height: 100%"></div>
+
+		</div>
+			<div class="alg" onclick="next(),next2(),next3(),next4(),apa2()"><img src="next.png" style="width: 60%;height: 60%;"></div>
+		</div>
+
+	</div><script>
+			document.getElementById("resim").src =arr[q].src;
+			document.getElementById("first").src =arr[q].src;
+			document.getElementById("second").src =arr[1].src;
+			document.getElementById("three").src =arr[2].src;
+			document.getElementById("four").src =arr[3].src;
+			document.getElementById("PA").innerHTML = pass[0];
+	</script>
+
+
+</body>
+</html>

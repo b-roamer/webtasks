@@ -162,7 +162,13 @@ header img {
     display: none;
 }
 
-
+#mail {
+    width: 5%;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
 
 

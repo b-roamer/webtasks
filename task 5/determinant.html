@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/determinant_style.css">
+    <title>Task 5: Determinant</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+    <script src="js/determinant_js.js"></script>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;">
+        <p style="color: gray; margin-top: 50px; margin-left: 50px; margin-bottom: 10px;">Task-5</p>
+        <p id="name">Calculate determinant of the given matrix:</p>
+    </div>
+
+    <div style="display: flex;">
+        <div id="main">
+            <div id="field">
+                <input id="a" type="number"><input id="b" type="number"><input id="c" type="number"><br>
+                <input id="d" type="number"><input id="e" type="number"><input id="f" type="number"><br>
+                <input id="g" type="number"><input id="h" type="number"><input id="i" type="number"><br>
+            </div>
+
+            <div id="find_button">
+                <a onclick="determinant();" id="btnResult" href="#">FIND DETERMINANT</a>
+            </div>
+        </div>
+
+
+        <div id="result_block">
+            <p style="color: white; background-color: rgb(51, 51, 51); border-radius: 5px; padding: 5
+                10px; padding-right: 20px; display: inline-block; margin-bottom: 10px">Result: </p>
+            <h1 id="result"></h1>
+            <h3 id="formula"></h3>
+            <div id="def">
+                <p style="color: rgb(110, 110, 110)">Defenition: </p>
+                <p>In linear algebra, the <strong style="font-weight: 900">determinant </strong> is a scalar value that can be computed from the elements of a square matrix and encodes certain properties of the linear transformation described by the matrix. The determinant of a matrix A is denoted det(A), det A, or |A|. Geometrically, it can be viewed as the volume scaling factor of the linear transformation described by the matrix. This is also the signed volume of the n-dimensional parallelepiped spanned by the column or row vectors of the matrix. The determinant is positive or negative according to whether the linear mapping preserves or reverses the orientation of n-space.</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+
+</html>
