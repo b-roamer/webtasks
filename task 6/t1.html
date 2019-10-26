@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Task 1</title>
+    <link rel="stylesheet" href="css/t1_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <script src="js/t1_js.js" defer></script>
+</head>
+
+<body>
+    <div class="main_body">
+        <p class="task_num">Task 1</p>
+        <div class="checklist">
+            <div class="to_do">
+                <img onclick="crossTask1()" src="img/icons8-checked-2.svg"><span class="task1">Go to gym</span>
+            </div>
+
+            <div class="to_do">
+                <img onclick="crossTask2()" src="img/icons8-checked-2.svg"><span class="task2">Eat lunch with Liza</span>
+            </div>
+
+            <div class="to_do">
+                <img onclick="crossTask3()" src="img/icons8-checked-2.svg"><span class="task3">Web Home Work</span>
+            </div>
+
+            <div class="to_do">
+                <img onclick="crossTask4()" src="img/icons8-checked-2.svg"><span class="task4">Photoshoot</span>
+            </div>
+
+            <div class="to_do">
+                <img onclick="crossTask5()" src="img/icons8-checked-2.svg"><span class="task5">Enjoy Life</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main_body">
+        <p class="task_num">Task 2</p>
+        <div>
+            <select name="Country" id="drop_down">
+                <option value="none">Select country</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Russia">Russia</option>
+                <option value="USA">USA</option>
+            </select>
+            
+        </div>
+    </div>
+
+    <div class="main_body">
+        <p class="task_num">Task 3</p>
+
+        <div>
+            <div id="images">
+                <div class="cars">
+                    <img class="car" src="img/asxa.jpg" alt="">
+                    <img class="cart" onclick="add1()" src="img/icons8-shopping-cart-64.png" alt="">
+                </div>
+                <span>1000</span><hr>
+                <div class="cars">
+                    <img class="car" src="img/Unknown.jpg" alt="">
+                    <img class="cart" onclick="add2()" src="img/icons8-shopping-cart-64.png" alt="">
+                </div>
+                <span>2000</span><hr>
+                <div class="cars">
+                    <img class="car" src="img/saxsa.jpg" alt="">
+                    <img class="cart" onclick="add3()" src="img/icons8-shopping-cart-64.png" alt="">
+                </div>
+                <span>500</span><hr>
+
+                <p id="total">Total: 0</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
