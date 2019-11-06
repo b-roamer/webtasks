@@ -40,9 +40,7 @@ header img {
     padding-right: 5px;
     margin-left: 44%;
     margin-right: 44%;
-    /* box-sizing: border-box;
-    background: linear-gradient(90deg,  #4b03f4, #8e04ff, #c73bff, #f403b8, #4b03f4);
-    background-size: 300%; */
+    
 }
 .logo a:visited {
     color: white;
@@ -56,17 +54,9 @@ header img {
     transition: 400ms; 
     color: black;
     background: white;
-    /* animation: animate 8s linear infinite; */
 } 
 
-/* @keyframes animate {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 300%;
-    }
-} */
+
 
 .menu_options {
     width: calc(100% - 250px);
