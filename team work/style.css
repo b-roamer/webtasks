@@ -1,0 +1,92 @@
+body
+{
+    background: rgb(0,255,250);
+    background: linear-gradient(105deg, rgba(0,255,250,1) 0%, rgba(0,140,255,1) 100%);
+}
+
+ul
+{
+    list-style: none;
+}
+
+#header p
+{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+#card_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card
+{
+    border-radius: 30px;
+    background-color: white;
+    height: 70%;
+    width: 380px;
+    margin: 50px;
+    margin-top: 0px;
+    padding-left: 35px;
+    box-shadow: 0px 0px 52px -11px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.card .card_title
+{
+    width: 345px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#items
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.checkmark
+{
+    width: 12%;
+    vertical-align: -27px;
+    height: 10%;
+    margin-right: 10px;
+}
+
+.done
+{
+    text-decoration: line-through;
+}
+
+#new img
+{
+    position: absolute;
+    bottom: 25;
+    width: 10%;
+    right: 35;
+}
+
+#new input[type=text]
+{
+    position: absolute;
+    bottom: 30;
+    width: 290px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    padding-left: 10px;
+}

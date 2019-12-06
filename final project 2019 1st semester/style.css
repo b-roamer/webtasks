@@ -79,7 +79,7 @@ header img {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding-left: 25px;
     padding-right: 25px;
     transition: 400ms; 
@@ -97,7 +97,7 @@ header img {
 }
 
 .menu_options a:hover {
-    border: 1px solid white;
+    border: 2px solid white;
     padding-right: 25px;
     padding-left: 25px;
     transition: 400ms; 
