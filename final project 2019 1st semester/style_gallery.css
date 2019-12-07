@@ -30,7 +30,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 10px;
 }
 
@@ -72,7 +72,7 @@ header img {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding-left: 25px;
     padding-right: 25px;
     transition: 400ms; 
@@ -122,7 +122,7 @@ header img {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding-left: 25px;
     padding-right: 25px;
     transition: 400ms; 
@@ -138,7 +138,7 @@ header img {
     border-radius: 40px;
 }
 .preview a:hover {
-    border: 1px solid white;
+    border: 2px solid white;
     padding-right: 25px;
     padding-left: 25px;
     transition: 400ms; 

@@ -119,29 +119,10 @@ header img {
     font-size: 80;
 }
 
-
-
-/* #events_list .event_title h2 {
-    transition: 300ms;
-}
-
-#events_list .event_title h2:hover
-{
-    background-color: white;
-    color: black;
-    transition: 300ms;
-    padding-bottom: 100px;
-} */
-
 .event_des
 {    
     color: white;
     margin-left: 700px;
     margin-right: 100px;
     line-height: 2;
-}
-
-.event_block 
-{
-
 }
