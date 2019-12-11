@@ -95,24 +95,9 @@ header img {
 }
 
 
-.about_self {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 300px;
-}
-
-#face_photo {
-    border-radius: 150px;
-    width: 200px;
-    height: 220px;
-    margin-top: 30px;
-}
-
 
 #events_list .event_title
 {
-    color: white;
     margin-top: 250px;
     margin-left: 100px;
     margin-right: 100px;
@@ -121,8 +106,117 @@ header img {
 
 .event_des
 {    
-    color: white;
     margin-left: 700px;
     margin-right: 100px;
     line-height: 2;
+}
+
+#events_list_mob
+{
+    display: none;
+}
+
+.event_block
+{
+    color: white;
+    background-color: black;
+    transition: 300ms;
+}
+.event_block:hover
+{
+    color: black;
+    background-color: white;
+    transition: 300ms;
+}
+
+
+@media only screen and (max-width:400px) {
+    body {
+        background-color: black;
+        display: flex;
+        font-family: Montserrat, Arial,sans-serif;
+        flex-direction: column;
+    }
+
+    #events_list
+    {
+        display: none;
+    }
+
+    header
+    {
+        display: none;
+    }
+
+
+    #header_options_mob
+    {
+        display: flex;
+        margin-top: 12px;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 12;
+        margin-bottom: 12px;
+    }
+
+    #header_options_mob a:link
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:visited
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
+    }
+
+    #events_list_mob
+    {
+        display: flex;
+        color: white;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .event_block_mob
+    {
+        width: 40%;
+        border: 1px solid white;
+        padding: 1px 10px;
+        margin-top: 12px;
+        transition: 300ms;
+    }
+
+    .event_block_mob:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
+    }
+
+    .event_title_mob
+    {
+        font-size: 13;
+    }
+
+    .event_des_mob
+    {
+        font-size: 10;
+    }
 }

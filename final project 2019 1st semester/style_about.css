@@ -124,3 +124,92 @@ header img {
     padding: 20px;
     font-size: 20;
 }   
+
+@media only screen and (max-width:400px) {
+    body {
+        background-color: black;
+        font-family: Montserrat, Arial,sans-serif;
+        font-size: 20%;
+        display: block;
+    }
+
+    .about
+    {
+        display: none;
+    }
+
+    header 
+    {
+        display: none;
+    }
+
+    #header_options_mob
+    {
+        display: flex;
+        margin-top: 12px;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 12;
+        margin-bottom: 12px;
+    }
+
+    #header_options_mob a:link
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:visited
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
+    }
+
+    .about_hr
+    {
+        display: none;
+    }
+
+    .about_mob 
+    {
+        color: white;
+        border: 1px solid white;
+        margin: 12px;
+        line-height: 2;
+        padding: 1px 15px;
+        transition: 300ms;
+    }
+
+
+    .about_mob h1
+    {
+        font-size: 15;
+    }
+
+    .about_mob p
+    {
+        font-size: 10;
+    }
+
+    .about_mob:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
+    }
+}

@@ -169,93 +169,47 @@ header img {
         display: block;
     }
 
-    header {
-        top: 0;
+
+    header 
+    {
+        display: none;
+    }
+
+    #header_options_mob
+    {
+        display: flex;
+        margin-top: 12px;
         width: 100%;
-        position: fixed;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.9);
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: right;
+        justify-content: space-evenly;
+        font-size: 12;
+        margin-bottom: 12px;
     }
 
-    #left {
-        display: none;
-    }
-    
-    #right {
-        display: none;
-    }
-
-    #logo img {
-        width: 10%;
-    }
-
-    #logo {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: auto;
-    }
-
-    .logo a:link {
+    #header_options_mob a:link
+    {
         color: white;
         text-decoration: none;
-        font-size: 20%;
-        border: 1px solid black;
-        border-radius: 40px;
-        transition: 400ms;
-        padding-left: 5px;
-        padding-right: 5px;
-        left: 5px;
-    }
-    .logo a:visited {
-        color: white;
-        border: 1px solid black;
-    }
-    .logo a:hover {
-        margin-right: 43%;
-        margin-left: 43%;
-        color: white;
-        border: 1px solid black;
-        transition: 400ms; 
-        color: black;
-        background: white;
-    } 
-
-    .menu_options {
-        width: 50%;
-    }
-    
-    .menu_options a:link { 
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20%;
-        border: 1px solid black;
-        transition: 400ms; 
-        border-radius: 40px;
-    }
-    
-    .menu_options a:visited {
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        border: 1px solid black;
-        transition: 400ms; 
-        border-radius: 40px;
-    }
-    
-    .menu_options a:hover {
         border: 1px solid white;
-        transition: 400ms; 
-        border-radius: 40px;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
     }
 
-    #spaceholder_mob {
-        display: block;
-        margin: 50%;
+    #header_options_mob a:visited
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
     }
 
     .gallery_title {

@@ -124,3 +124,97 @@ header img {
     margin: 30px;
     width: 500px;
 }
+
+#about_self_mob {
+    display: none;
+}
+
+@media only screen and (max-width:400px) {
+    body {
+        background-color: black;
+        display: flex;
+        font-family: Montserrat, Arial,sans-serif;
+        flex-direction: column;
+    }
+
+    .about_self {
+        display: none;
+    }
+    
+    .hr_ver 
+    {
+        display: none;
+    }
+
+    header
+    {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    #header_options_mob
+    {
+        display: flex;
+        margin-top: 4px;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 12;
+        margin-bottom: 12px;
+    }
+
+    #header_options_mob a:link
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:visited
+    {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 2px 6px;
+        border-radius: 100px;
+        transition: 300ms;
+    }
+
+    #header_options_mob a:hover
+    {
+        color: black;
+        background-color: white;
+        transition: 300ms;
+    }
+
+    #about_self_mob
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100;
+    }
+
+    #face_photo_mob 
+    {
+        width: 20%;
+        height: 13%;
+        border-radius: 100px;
+        margin: 20px;       
+    }
+
+    .text_info_mob 
+    {
+        color: white;
+        font-size: 10px;
+        width: 60%;
+    }
+
+}
