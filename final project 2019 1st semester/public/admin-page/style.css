@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: Montserrat, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.main__sections-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.sections-nav__item {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-right: 2px solid white;
+  padding: 0.3em 1em;
+  transition: 0.3s;
+  transition-property: background-color;
+}
+
+.sections-nav__item:hover {
+  background-color: white;
+  color: black;
+}
+
+.sections-nav__item_selected {
+  background-color: white;
+  color: black;
+  cursor: default;
+}
+
+.main__section {
+  background-color: white;
+  height: calc(100% - 40px);
+  width: calc(100% - 10px);
+
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  margin-left: 10px;
+}
+
+.main__section_selected {
+  display: grid;
+}
+
+.main-section__data {
+  color: black;
+  border-right: 1px solid lightgray;
+}
+
+.main-section__data-heading-wrapper {
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 4fr;
+}
+
+.main-section__data-heading {
+  font-weight: bold;
+  justify-items: center;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+
+  border-right: 1px solid lightgray;
+  padding: 10px;
+  height: 40px;
+}
+
+.main-section__data-heading:last-of-type {
+  border-right: none;
+}
+
+.main-section__data-flow {
+  display: grid;
+  grid-template-columns: 1fr 3fr 4fr;
+  overflow-y: auto;
+  max-height: calc(100% - 45px);
+}
+
+.main-section__data-item {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.section-collection-items .main-section__data-heading-wrapper,
+.section-collection-items .main-section__data-flow {
+  grid-template-columns: 1fr 3fr 3fr 5fr;
+}
+
+.crud-control__fields {
+  display: flex;
+  flex-direction: column;
+}
+.crud-control__field {
+  font-size: 1.2rem;
+  border-bottom: 1px solid gray;
+  padding: 0.3em 0.5em;
+  transition: 0.3s;
+  width: auto;
+}
+
+.crud-control__field:hover {
+  border-color: black;
+}
+
+.crud-control__button {
+  font-size: 1.3rem;
+  color: black;
+  text-transform: uppercase;
+  padding: 0.3em 0.5em;
+  margin: 10px;
+
+  background-color: white;
+  border: 2px solid black;
+
+  transition: 0.3s;
+}
+
+.crud-control__button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.crud-control__button:active {
+  opacity: 0.7;
+}

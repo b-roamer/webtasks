@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RB's Admin page</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="admin-page/style.css" />
+    <script src="admin-page/script.js" defer></script>
+  </head>
+  <body>
+    <article class="main">
+      <nav class="main__sections-nav">
+        <div class="sections-nav__item sections-nav__events sections-nav__item_selected">
+          Events
+        </div>
+        <div class="sections-nav__item sections-nav__collections">Collections</div>
+        <div class="sections-nav__item sections-nav__collection-items">Collection items</div>
+      </nav>
+      <section class="main__section section-events main__section_selected">
+        <div class="main-section__data">
+          <div class="main-section__data-heading-wrapper">
+            <div class="main-section__data-heading">ID</div>
+            <div class="main-section__data-heading">Title</div>
+            <div class="main-section__data-heading">Description</div>
+          </div>
+          <div class="main-section__data-flow"></div>
+        </div>
+        <div class="crud-control">
+          <div class="crud-control__fields"></div>
+          <div class="crud-control__buttons">
+            <button class="crud-control__button-add crud-control__button">Add</button>
+            <button class="crud-control__button-delete crud-control__button">Delete</button>
+            <button class="crud-control__button-update crud-control__button">Update</button>
+            <button class="crud-control__button-clear crud-control__button">Clear Fields</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__section section-collections">
+        <div class="main-section__data">
+          <div class="main-section__data-heading-wrapper">
+            <div class="main-section__data-heading">ID</div>
+            <div class="main-section__data-heading">Name of collection</div>
+            <div class="main-section__data-heading">Description</div>
+          </div>
+          <div class="main-section__data-flow"></div>
+        </div>
+        <div class="main-section__crud-control">
+          <div class="crud-control__fields"></div>
+          <div class="crud-control__buttons">
+            <button class="crud-control__button-add crud-control__button">Add</button>
+            <button class="crud-control__button-delete crud-control__button">Delete</button>
+            <button class="crud-control__button-update crud-control__button">Update</button>
+            <button class="crud-control__button-clear crud-control__button">Clear Fields</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__section section-collection-items">
+        <div class="main-section__data">
+          <div class="main-section__data-heading-wrapper">
+            <div class="main-section__data-heading">ID</div>
+            <div class="main-section__data-heading">Name of collection</div>
+            <div class="main-section__data-heading">img</div>
+            <div class="main-section__data-heading">Description</div>
+          </div>
+          <div class="main-section__data-flow"></div>
+        </div>
+        <div class="main-section__crud-control">
+          <div class="crud-control__fields"></div>
+          <div class="crud-control__buttons">
+            <button class="crud-control__button-add crud-control__button">Add</button>
+            <button class="crud-control__button-delete crud-control__button">Delete</button>
+            <button class="crud-control__button-update crud-control__button">Update</button>
+            <button class="crud-control__button-clear crud-control__button">Clear Fields</button>
+          </div>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
